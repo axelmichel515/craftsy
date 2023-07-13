@@ -1,0 +1,50 @@
+.home__header{
+    color: #ffffff;
+    background-color: red;
+    
+}
+
+.home__header--nav{
+
+
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.home__header--register-login{
+    width: 100vw;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: start;
+    gap: 5px;
+    
+    
+}
+
+.home__main--aside-tutoriales{
+    width:90vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    border:solid 
+}
+
+.home__footer{
+    width: 100vw;
+    height: 120px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.home__footer a{
+    border: solid;
+    
+}
